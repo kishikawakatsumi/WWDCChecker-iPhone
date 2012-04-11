@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		146562C91535CFFE007D5E49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146562C81535CFFE007D5E49 /* UIKit.framework */; };
+		146562CB1535CFFE007D5E49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146562CA1535CFFE007D5E49 /* Foundation.framework */; };
+		146562CD1535CFFE007D5E49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146562CC1535CFFE007D5E49 /* CoreGraphics.framework */; };
+		146562D31535CFFE007D5E49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 146562D11535CFFE007D5E49 /* InfoPlist.strings */; };
+		146562D51535CFFE007D5E49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146562D41535CFFE007D5E49 /* main.m */; };
+		146562D91535CFFE007D5E49 /* WWDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 146562D81535CFFE007D5E49 /* WWDCAppDelegate.m */; };
+		146562DC1535CFFE007D5E49 /* WWDCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146562DB1535CFFE007D5E49 /* WWDCViewController.m */; };
+		146562DF1535CFFE007D5E49 /* WWDCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146562DD1535CFFE007D5E49 /* WWDCViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		146562C41535CFFE007D5E49 /* WWDCChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDCChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		146562C81535CFFE007D5E49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		146562CA1535CFFE007D5E49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		146562CC1535CFFE007D5E49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		146562D01535CFFE007D5E49 /* WWDCChecker-Info.plist */ = {isa = PBXFileReference; path = "WWDCChecker-Info.plist"; sourceTree = "<group>"; };
+		146562D21535CFFE007D5E49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		146562D41535CFFE007D5E49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		146562D61535CFFE007D5E49 /* WWDCChecker-Prefix.pch */ = {isa = PBXFileReference; path = "WWDCChecker-Prefix.pch"; sourceTree = "<group>"; };
+		146562D71535CFFE007D5E49 /* WWDCAppDelegate.h */ = {isa = PBXFileReference; path = WWDCAppDelegate.h; sourceTree = "<group>"; };
+		146562D81535CFFE007D5E49 /* WWDCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWDCAppDelegate.m; sourceTree = "<group>"; };
+		146562DA1535CFFE007D5E49 /* WWDCViewController.h */ = {isa = PBXFileReference; path = WWDCViewController.h; sourceTree = "<group>"; };
+		146562DB1535CFFE007D5E49 /* WWDCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWDCViewController.m; sourceTree = "<group>"; };
+		146562DE1535CFFE007D5E49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WWDCViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		146562C11535CFFE007D5E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146562C91535CFFE007D5E49 /* UIKit.framework in Frameworks */,
+				146562CB1535CFFE007D5E49 /* Foundation.framework in Frameworks */,
+				146562CD1535CFFE007D5E49 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		146562B91535CFFE007D5E49 = {
+			isa = PBXGroup;
+			children = (
+				146562CE1535CFFE007D5E49 /* WWDCChecker */,
+				146562C71535CFFE007D5E49 /* Frameworks */,
+				146562C51535CFFE007D5E49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		146562C51535CFFE007D5E49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146562C41535CFFE007D5E49 /* WWDCChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		146562C71535CFFE007D5E49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				146562C81535CFFE007D5E49 /* UIKit.framework */,
+				146562CA1535CFFE007D5E49 /* Foundation.framework */,
+				146562CC1535CFFE007D5E49 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		146562CE1535CFFE007D5E49 /* WWDCChecker */ = {
+			isa = PBXGroup;
+			children = (
+				146562D71535CFFE007D5E49 /* WWDCAppDelegate.h */,
+				146562D81535CFFE007D5E49 /* WWDCAppDelegate.m */,
+				146562DA1535CFFE007D5E49 /* WWDCViewController.h */,
+				146562DB1535CFFE007D5E49 /* WWDCViewController.m */,
+				146562DD1535CFFE007D5E49 /* WWDCViewController.xib */,
+				146562CF1535CFFE007D5E49 /* Supporting Files */,
+			);
+			path = WWDCChecker;
+			sourceTree = "<group>";
+		};
+		146562CF1535CFFE007D5E49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				146562D01535CFFE007D5E49 /* WWDCChecker-Info.plist */,
+				146562D11535CFFE007D5E49 /* InfoPlist.strings */,
+				146562D41535CFFE007D5E49 /* main.m */,
+				146562D61535CFFE007D5E49 /* WWDCChecker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		146562C31535CFFE007D5E49 /* WWDCChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146562E21535CFFE007D5E49 /* Build configuration list for PBXNativeTarget "WWDCChecker" */;
+			buildPhases = (
+				146562C01535CFFE007D5E49 /* Sources */,
+				146562C11535CFFE007D5E49 /* Frameworks */,
+				146562C21535CFFE007D5E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWDCChecker;
+			productName = WWDCChecker;
+			productReference = 146562C41535CFFE007D5E49 /* WWDCChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		146562BB1535CFFE007D5E49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WWDC;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Kishikawa Katsumi";
+			};
+			buildConfigurationList = 146562BE1535CFFE007D5E49 /* Build configuration list for PBXProject "WWDCChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 146562B91535CFFE007D5E49;
+			productRefGroup = 146562C51535CFFE007D5E49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				146562C31535CFFE007D5E49 /* WWDCChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		146562C21535CFFE007D5E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146562D31535CFFE007D5E49 /* InfoPlist.strings in Resources */,
+				146562DF1535CFFE007D5E49 /* WWDCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		146562C01535CFFE007D5E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146562D51535CFFE007D5E49 /* main.m in Sources */,
+				146562D91535CFFE007D5E49 /* WWDCAppDelegate.m in Sources */,
+				146562DC1535CFFE007D5E49 /* WWDCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		146562D11535CFFE007D5E49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146562D21535CFFE007D5E49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		146562DD1535CFFE007D5E49 /* WWDCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146562DE1535CFFE007D5E49 /* en */,
+			);
+			name = WWDCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		146562E01535CFFE007D5E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		146562E11535CFFE007D5E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		146562E31535CFFE007D5E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWDCChecker/WWDCChecker-Prefix.pch";
+				INFOPLIST_FILE = "WWDCChecker/WWDCChecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		146562E41535CFFE007D5E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WWDCChecker/WWDCChecker-Prefix.pch";
+				INFOPLIST_FILE = "WWDCChecker/WWDCChecker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146562BE1535CFFE007D5E49 /* Build configuration list for PBXProject "WWDCChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146562E01535CFFE007D5E49 /* Debug */,
+				146562E11535CFFE007D5E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146562E21535CFFE007D5E49 /* Build configuration list for PBXNativeTarget "WWDCChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146562E31535CFFE007D5E49 /* Debug */,
+				146562E41535CFFE007D5E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 146562BB1535CFFE007D5E49 /* Project object */;
+}
