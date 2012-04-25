@@ -12,3 +12,12 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#ifdef TESTFLIGHT_ENABLED
+#  import "TestFlight.h"
+#  define TESTFLIGHT_TAKEOFF [TestFlight takeOff:@"13b74629f746497786534738pfr538f0_Nzk5NjYyMDKyLTA0LTExWLKyOjE4OjUyLjMxJDO5Nw"]
+#  define TESTFLIGHT_FEEDBACK [TestFlight openFeedbackView]
+#else
+#  define TESTFLIGHT_TAKEOFF ;
+#  define TESTFLIGHT_FEEDBACK ;
+#endif
